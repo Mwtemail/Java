@@ -32,6 +32,7 @@ public class RoseDemoController {
     @Get("update")
     public String update () {
         demoDAO.updateUser();
+        
         return "@update";
     }
 
